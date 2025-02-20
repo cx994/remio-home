@@ -14,7 +14,6 @@ import { Footer } from "@/components/layout/Footer";
 import dynamic from "next/dynamic";
 import { Controller } from "@/components/controller/Controller";
 import { Weather } from "@/components/weather/Weather";
-import { Search } from "@/components/search/Search";
 
 export const revalidate = 0;
 
@@ -51,22 +50,6 @@ export default async function Home() {
     }
   };
 
-  const handleSearch = (searchTerm: string) => {
-    // Example: Filter sites based on search term
-    const filteredStatic = staticSites.filter(site => 
-      site.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      site.desc?.toLowerCase().includes(searchTerm.toLowerCase())
-    );
-    
-    const filteredModal = modalSites.filter(site => 
-      site.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      site.desc?.toLowerCase().includes(searchTerm.toLowerCase())
-    );
-
-    // Update the sites display accordingly
-    // You'll need to implement state management for this
-  };
-
   return (
     <Suspense
       fallback={
@@ -75,11 +58,6 @@ export default async function Home() {
         </Loader>
       }
     >
-      <Search 
-        placeholder="搜索站点..."
-        className="md:w-[300px]"
-        onSearch={handleSearch}
-      />
       {globalStyle?.weather && <Weather size={18} />}
       {renderMain({
         ...others,
