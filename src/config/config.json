@@ -13,8 +13,8 @@
     "aloneRight": false
   },
   "bgConfig": {
-    "bg": ["/icons/background.jpg"],
-    "mbg": ["/icons/background.jpg"],
+    "bg": ["/icons/background.png"],
+    "mbg": ["/icons/background.png"],
     "bgStyle": "snow",
     "blur": "",
     "cardOpacity": 0.1,
@@ -259,7 +259,7 @@
     ],
     "title": "技能加点",
     "color": "linear-gradient(to right, #ffafbd 0%, #c9ffbf 100%)",
-    "hidden": false,
+    "hidden": true,
     "column": 4
   },
   "footer": {
