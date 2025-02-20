@@ -1,10 +1,10 @@
 {
-  "name": "KASUIEの主页✨",
+  "name": "CYChub",
   "favicon": "/favicon.ico",
-  "keywords": "remio,rem,mio,C.C.,KASUIEの次元,KASUIE的个人博客,KASUIE,个人主页,主页,个人记录,技术博客,个人生活",
-  "description": "KASUIEの次元，兴趣至上，内容随缘，个人主页",
+  "keywords": "cyc主页",
+  "description": "cyc主页",
   "avatarConfig": {
-    "src": "https://s2.loli.net/2024/06/19/8zlOyDUnGjXeHpi.webp",
+    "src": "/icons/cycicon.jpg",
     "size": 150,
     "round": "full",
     "style": "wave",
@@ -34,7 +34,7 @@
     "style": "",
     "istTransition": true
   },
-  "subTitle": "https://v1.hitokoto.cn?c=a&c=b&c=c",
+  "subTitle": "Welcome to CYChub",
   "subTitleConfig": {
     "typing": true,
     "loading": "wave",
@@ -44,8 +44,8 @@
     "showFrom": true,
     "style": "desc",
     "gapDelay": 0.05,
-    "content": "Hello💫，这里是kasuieの主页",
-    "desc": "kasuie是自己胡乱起的，也可以叫我暖暖;已经毕业快两年半了，主要捣鼓一些前端，会点点后端，目标是成为一个温柔的全栈开发，好耶！🥰"
+    "content": "Hello💫",
+    "desc": "CYChub"
   },
   "links": [
     {
