@@ -49,28 +49,10 @@
   },
   "links": [
     {
-      "title": "qq",
-      "color": "#dfba00",
-      "url": "http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=zIvBSvLDRr4MvqFSHcioDwS090ljUYHT&authKey=THHoVVpDZWHfnpZoNf57rDWzwrXmTWtnlN70ljCM6cG9eZ5KTIJcTxrvc7%2B7YdVI&noverify=0&group_code=793752494",
-      "icon": "qq"
-    },
-    {
-      "title": "telegram",
-      "color": "#1da1f2",
-      "url": "https://t.me/PixivLips",
-      "icon": "telegram"
-    },
-    {
       "title": "github",
       "color": "#000000",
       "url": "https://github.com/cx994",
       "icon": "github"
-    },
-    {
-      "title": "twitter",
-      "color": "#1da1f2",
-      "url": "https://twitter.com/kasuie3",
-      "icon": "twitter"
     },
     {
       "title": "email",
@@ -79,15 +61,9 @@
       "icon": "email"
     },
     {
-      "title": "steam",
-      "color": "#000000",
-      "url": "https://s.team/p/fhwd-fwbn/NWWVGPJV",
-      "icon": "steam"
-    },
-    {
       "title": "bilibili",
       "color": "#0088cc",
-      "url": "https://space.bilibili.com/85447052",
+      "url": "https://www.bilibili.com",
       "icon": "bilibili"
     }
   ],
@@ -109,6 +85,12 @@
       "title": "Alist",
       "url": "http://nas.cychub.top",
       "desc": "个人网盘"
+    },
+    {
+      "icon": "/icons/pageicon/drop.png",
+      "title": "Drop",
+      "url": "http://drop.cychub.top",
+      "desc": "文件传输助手"
     }
   ],
   "sitesConfig": {
