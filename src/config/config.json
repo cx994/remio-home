@@ -100,7 +100,7 @@
       "desc": "文件传输助手"
     },
     {
-      "icon": "/icons/pageicon/study.png",
+      "icon": "/icons/pageicon/tool.png",
       "title": "工具箱",
       "desc": "一些小工具"
     },
@@ -109,6 +109,12 @@
       "title": "公众号rss",
       "url": "http://wewe.cychub.top/feeds/all.atom",
       "desc": "wewe rss 订阅"
+    },
+    {
+      "icon": "/icons/pageicon/study.png",
+      "title": "搜索引擎",
+      "url": "http://search.cychub.top",
+      "desc": "自建搜索引擎"
     }
     
   ],
