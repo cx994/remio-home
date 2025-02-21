@@ -58,20 +58,14 @@
     {
       "title": "zju-mail",
       "color": "#fd3232",
-      "url": "https://mail.zju.edu.cn/",
+      "url": "mailto:chenyc@zju.edu.cn",
       "icon": "email"
     },
     {
-      "title": "qq-mail",
-      "color": "#fd3232",
-      "url": "https://mail.qq.com/",
-      "icon": "email"
-    },
-    {
-      "title": "bilibili",
+      "title": "500px",
       "color": "#0088cc",
-      "url": "https://www.bilibili.com",
-      "icon": "bilibili"
+      "url": "https://500px.com.cn/nhcyc",
+      "icon": "instargram"
     }
   ],
   "sites": [
@@ -100,12 +94,6 @@
       "desc": "文件传输助手"
     },
     {
-      "icon": "/icons/pageicon/navigation.png",
-      "title": "Navigation",
-      "url": "http://www.cychub.top",
-      "desc": "导航站"
-    },
-    {
       "icon": "/icons/pageicon/tools.png",
       "title": "工具箱",
       "desc": "一些小工具"
@@ -121,8 +109,19 @@
       "title": "搜索引擎",
       "url": "http://search.cychub.top",
       "desc": "自建搜索引擎"
+    },
+    {
+      "icon": "/icons/pageicon/navigation.png",
+      "title": "zjuer-nav",
+      "url": "http://zju.cychub.top",
+      "desc": "zju导航站"
+    },
+    {
+      "icon": "/icons/pageicon/navigation.png",
+      "title": "科研导航",
+      "url": "https://www.yanweb.top",
+      "desc": "科研导航"
     }
-    
   ],
   "sitesConfig": {
     "hidden": false,
